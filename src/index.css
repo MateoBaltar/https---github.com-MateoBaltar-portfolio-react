@@ -364,7 +364,7 @@ textarea {
 .contacto #icon {
   font-size: 2rem;
   color: rgb(62, 62, 62);
-  background: linear-gradient(to right, #f5ce62, #ff00ee, #fa7199, #ffc108);
+  background: #ffc108;
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -387,7 +387,7 @@ textarea {
   .contacto #icon{
     width: 50px;
     height: 50px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 

@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 const Habilidades = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 }, { once: true });
+    Aos.init({ duration: 500 }, { once: true });
   }, []);
   const skills = [
     {

@@ -1,16 +1,11 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import { MdLocationOn } from "react-icons/md";
 import { AiFillMail } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 const Contacto = () => {
-  useEffect(() => {
-    Aos.init({ duration: 3000 }, { once: true });
-  }, []);
   return (
     <div className="contacto" id="contacto">
-      <div id="icons" data-aos="slide-right">
+      <div id="icons">
         <section>
           <div id="icon">
             <MdLocationOn />
@@ -45,7 +40,7 @@ const Contacto = () => {
           </div>
         </section>
       </div>
-      <div id="contact_form" data-aos="fade">
+      <div id="contact_form">
         <form
           action="https://formsubmit.co/mateobaltar@gmail.com"
           method="POST"

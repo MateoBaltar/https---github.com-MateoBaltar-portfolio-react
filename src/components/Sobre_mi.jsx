@@ -9,13 +9,13 @@ const Sobre_mi = () => {
   }, [])
   return (
     <div id="sobre_mi">
-      <div data-aos="fade-right" class="sobre_mi">
+      <div class="sobre_mi">
         <h3 style={{ textAlign: "center" }}>
           <span class="gradient-text">Sobre mi</span>
         </h3>
         <p>
           Hola! Yo soy Mateo Baltar, soy una persona apasionada por aprender y
-          expandirme en el area IT. Soy de Rio Grande, Tierra del fuego,
+          expandirme en el area IT. Soy de Rio Grande, Tierra del Fuego,
           Argentina. Me gusta afrontar desafios de todo tipo y dejar que mi
           creatividad de fruto a nuevas ideas.
           <br />
