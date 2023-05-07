@@ -21,7 +21,7 @@ const Sobre_mi = () => {
           <br />
           <br /> Fui parte del proyecto de Tecnologia + Trabajo, el cual me dio
           la oportunidad de cursar de manera gratuita el programa de Programador
-          Full Stack desde agosto de 2022 hasta abril de 2023
+          Full Stack desde agosto de 2022 hasta mayo de 2023
         </p>
         <Link to={"/curriculum"}>
           <button class="btn-hover boton">Curriculum</button>
