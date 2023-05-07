@@ -10,8 +10,8 @@ const Proyectos = () => {
     {
       title: "CipherTools",
       description: "Codificador/Decodificador de Algoritmos de Cifrado",
-      img: "https://i.imgur.com/441Oikm.png",
-      liveDemoLink: "https://i.imgur.com/441Oikm.png",
+      img: "https://i.ibb.co/ngnMPbM/image-2023-05-07-190020876.webp",
+      liveDemoLink: "https://cipher-tools.vercel.app",
       isCodeAvailable: true,
       codeLink: "https://github.com/MateoBaltar/CipherTools",
       tools: ["React", "Javascript", "API", "Vercel"],
@@ -19,7 +19,7 @@ const Proyectos = () => {
     {
       title: "CompraTech",
       description: "E-Commerce de Tecnologia",
-      img: "https://i.imgur.com/GDshNnP.png",
+      img: "https://i.ibb.co/zZTHfqC/image-2023-05-07-190013662.webp",
       liveDemoLink: "https://compra-tech-ecommerce.vercel.app",
       isCodeAvailable: true,
       codeLink: "https://github.com/MateoBaltar/CompraTech_Ecommerce",
