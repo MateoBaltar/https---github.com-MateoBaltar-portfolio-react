@@ -51,17 +51,20 @@ const Contacto = () => {
             type="text"
             class="feedback-input"
             placeholder="Nombre"
+            required
           />
           <input
             name="email"
             type="text"
             class="feedback-input"
             placeholder="Email"
+            required
           />
           <textarea
             name="text"
             class="feedback-input"
             placeholder="Mensaje"
+            required
           ></textarea>
           <input type="submit" value="SUBMIT" />
         </form>
