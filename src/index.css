@@ -471,3 +471,23 @@ textarea {
 #resume img{
   width: 100%;
 }
+
+.ScrollToTop {
+  position: fixed;
+  display: flex;
+  bottom: 20px;
+  right: 20px;
+  background: transparent;
+}
+
+.ScrollToTop button{
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 0, 238, 0.5);
+  box-shadow: 0 4px 15px 0 rgba(192, 0, 176, 0.3);
+}
+
+.ScrollToTop img{
+  padding: 10%;
+  height: 40px;
+}
