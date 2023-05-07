@@ -1,4 +1,4 @@
-import React,{ useEffect } from "react";
+import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -31,7 +31,7 @@ const Proyectos = () => {
       <h1 class="gradient-text" data-aos="slide-up">
         Proyectos
       </h1>
-      <div className="row-proyectos" data-aos="fade-up"  >
+      <div className="row-proyectos" data-aos="fade-up">
         {proyectos.map((proyecto) => {
           return (
             <div className="card-proyectos">
@@ -48,8 +48,24 @@ const Proyectos = () => {
               </div>
               <div className="card-content">{proyecto.description}</div>
               <div className="card-footer">
-                <button className="btn-hover boton proyecto">Live Demo</button>
-                <button className="btn-hover boton proyecto">Code</button>
+                <button className="btn-hover boton proyecto">
+                  <a
+                    href={proyecto.liveDemoLink}
+                    target="_blank"
+                    style={{ color: "#fff" }}
+                  >
+                    Live Demo
+                  </a>
+                </button>
+                <button className="btn-hover boton proyecto">
+                  <a
+                    href={proyecto.codeLink}
+                    target="_blank"
+                    style={{ color: "#fff" }}
+                  >
+                    Code
+                  </a>
+                </button>
               </div>
             </div>
           );
