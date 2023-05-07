@@ -48,24 +48,15 @@ const Proyectos = () => {
               </div>
               <div className="card-content">{proyecto.description}</div>
               <div className="card-footer">
-                <button className="btn-hover boton proyecto">
-                  <a
-                    href={proyecto.liveDemoLink}
-                    target="_blank"
-                    style={{ color: "#fff" }}
-                  >
+                <a href={proyecto.liveDemoLink} target="_blank">
+                  <button className="btn-hover boton proyecto">
                     Live Demo
-                  </a>
-                </button>
-                <button className="btn-hover boton proyecto">
-                  <a
-                    href={proyecto.codeLink}
-                    target="_blank"
-                    style={{ color: "#fff" }}
-                  >
-                    Code
-                  </a>
-                </button>
+                  </button>
+                </a>
+
+                <a href={proyecto.codeLink} target="_blank">
+                  <button className="btn-hover boton proyecto">Code</button>
+                </a>
               </div>
             </div>
           );
