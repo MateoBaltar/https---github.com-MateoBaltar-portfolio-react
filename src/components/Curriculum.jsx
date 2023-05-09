@@ -1,4 +1,4 @@
-import curriculum from "../assets/curriculum.png";
+import curriculum from "../assets/curriculum.webp";
 import React from "react";
 import { Link } from "react-router-dom";
 
