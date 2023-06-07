@@ -15,7 +15,7 @@ const Curriculum = () => {
               <button className="btn-hover boton">
                 <a
                   href="/curriculum.pdf"
-                  download="Mateo Baltar - Full Stack Developer"
+                  download="Mateo Baltar - FullStack Developer"
                 >
                   Descargar
                 </a>
