@@ -32,12 +32,24 @@ const Habilidades = () => {
       img: "https://i.ibb.co/nkRv1xH/React.webp",
     },
     {
-      name: "Spring",
+      name: "Springboot",
       img: "https://i.ibb.co/XZng5ZY/image-2023-05-07-160332634.webp",
+    },
+    {
+      name: "NodeJS",
+      img: "https://i.ibb.co/fkSchbb/NodeJS.webp",
+    },
+    {
+      name: "MongoDB",
+      img: "https://i.ibb.co/nfW1KJC/MongoDB.webp",
     },
     {
       name: "MySQL",
       img: "https://i.ibb.co/GQxBHhp/image-2023-05-07-160338151.webp",
+    },
+    {
+      name: "Socket.IO",
+      img: "https://i.ibb.co/FB4CKL4/socketIO.webp",
     },
   ];
   
@@ -45,7 +57,7 @@ const Habilidades = () => {
     <div className="habilidades" id="habilidades">
       <h1 class="gradient-text" data-aos="fade-right">Habilidades</h1>
       <div className="row">
-        {skills.map((skill) => {if (skill.name === "MySQL"){
+        {skills.map((skill) => {if (skill.name === "MySQL" || skill.name === "NodeJS" || skill.name === "MongoDB") {
           return (
             <div className="card" data-aos="flip-right">
               <img
